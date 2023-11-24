@@ -1,0 +1,71 @@
+# Get editor completions based on the config schema
+"$schema" = 'https://starship.rs/config-schema.json'
+
+# prompt format
+format = '$username$localip$directory$all$character'
+
+[username]
+style_user = 'white bold'
+style_root = 'black bold'
+format = '[󰀵 $user](#4B3D8F) '
+disabled = false
+show_always = true
+
+# localip
+[localip]
+ssh_only = false
+format = '[󰩟 $localipv4](bold #37A987) '
+disabled = false
+
+# username
+
+# directory
+[directory]
+format = '[ $path](#B7B1D2) [$read_only]($read_only_style) '
+read_only = ''
+
+# Replace the '❯' symbol in the prompt with '➜'
+[character] # The name of the module we are configuring is 'character'
+success_symbol = '[➜](bold green)' # The 'success_symbol' segment is being set to '➜' with the color 'bold green'
+
+# programming languages symbol
+[c]
+symbol = ' '
+
+[custom.cpp]
+symbol = ' '
+detect_extensions = ['cpp']
+format = 'via [$symbol($output)](bold 149)'
+command = "gcc --version | awk '{print $4}'"
+
+[golang]
+symbol = ' '
+
+[python]
+symbol = ' '
+
+[lua]
+symbol = ' '
+
+[nodejs]
+symbol = '󰎙 '
+detect_files = ['package.json']
+
+[java]
+symbol = ' '
+
+[ruby]
+symbol = ' '
+
+[rust]
+symbol = ' '
+
+[swift]
+symbol = ' '
+
+[php]
+symbol = '󰌟 '
+
+[package]
+symbol = '󰏗 '
+
