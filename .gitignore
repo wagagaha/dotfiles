@@ -1,6 +1,6 @@
 .DS_store
 clash.meta
-private
+*private*
 configstore
 git
 github-copilot

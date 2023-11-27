@@ -1,26 +1,19 @@
 # dotfiles
-- [dotfiles](#dotfiles)
-  - [WezTerm](#wezterm)
-  - [Starship](#starship)
-  - [Homebrew](#homebrew)
-  - [Zsh](#zsh)
 
-## [WezTerm](https://wezfurlong.org/wezterm/index.html)
+- [Homebrew](https://brew.sh/)
+- [WezTerm](https://wezfurlong.org/wezterm/index.html)
+- [Starship](https://starship.rs/)
 
-## [Starship](https://starship.rs/)
-
-Dependencies:
-* [Nerd Fonts](https://www.nerdfonts.com/)
-
-## Homebrew
-
-## Zsh
-Prerequisites
+## Install
+```bash
+brew install bat eza gnupg
+```
 
 ```bash
-brew install eza bat gnupg
+# file: .zshrc
+for file in ~/.config/zsh/**/*(.); do
+  if [ -f $file ]; then
+    source $file
+  fi
+done
 ```
-* homebrew
-* gnupg
-* bat
-* eza
