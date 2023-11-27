@@ -30,10 +30,8 @@ alias dspm="rm -rf $HOME/Library/Caches/org.swift.swiftpm/;rm -rf $HOME/Library/
 # Flush Directory Service cache
 alias flushdns="dscacheutil -flushcache; sudo killall -HUP mDNSResponder"
 
-# Recursively delete `.DS_Store` files
-alias dsstore="find . -name '*.DS_Store' -type f -ls -delete"
 
-alias clean="dasl && ded && flushdns && dspm && dsstore"
+alias clean="dasl && ded && flushdns && dspm"
 
 # >> Others
 # local ip
