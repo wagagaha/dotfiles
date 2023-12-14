@@ -7,7 +7,7 @@ format = '$username$localip$directory$all$character'
 [username]
 style_user = 'white bold'
 style_root = 'black bold'
-format = '[󰀵 $user](#4B3D8F) '
+format = '[󰀵 $user](#FFFFFF) '
 disabled = false
 show_always = true
 
@@ -21,12 +21,13 @@ disabled = false
 
 # directory
 [directory]
-format = '[ $path](#B7B1D2) [$read_only]($read_only_style) '
+format = '[ $path](#CFB53D bold) [$read_only]($read_only_style) '
 read_only = ''
 
 # Replace the '❯' symbol in the prompt with '➜'
 [character] # The name of the module we are configuring is 'character'
 success_symbol = '[➜](bold green)' # The 'success_symbol' segment is being set to '➜' with the color 'bold green'
+error_symbol = '[➜](bold red)'
 
 # programming languages symbol
 [c]
@@ -68,4 +69,3 @@ symbol = '󰌟 '
 
 [package]
 symbol = '󰏗 '
-
