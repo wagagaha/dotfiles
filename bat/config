@@ -1,11 +1,8 @@
-# 设置主题为 TwoDark
---theme="TwoDark"
+# 设置主题为 Coldark-Dark
+--theme="Coldark-Dark"
 
-# 显示行号和 Git 修改信息， 但没有边框
---style="numbers,changes,header"
-
-# 在终端中以斜体输出文本（不是所有终端都支持）
---italic-text=always
+# 显示行号和 Git 修改信息
+--style="numbers,changes,header,header-filename,header-filesize,grid"
 
 # 使用 C++ 语法来给 Arduino 的 .ino 文件提供高亮
 --map-syntax "*.ino:C++"
