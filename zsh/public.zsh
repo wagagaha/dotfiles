@@ -1,6 +1,6 @@
 # startship
-#export STARSHIP_CONFIG="$HOME/.config/starship/zsh.toml"
-#eval "$(starship init zsh)"
+export STARSHIP_CONFIG="$HOME/.config/starship/zsh.toml"
+eval "$(starship init zsh)"
 
 # >> alias
 # main
@@ -45,3 +45,5 @@ alias clean="dasl &&\
 # local ip
 alias localip="ipconfig getifaddr en0"
 
+# external ip
+alias externalip="curl https://ipinfo.io"
