@@ -10,3 +10,5 @@ plum
 raycast
 ssh
 work
+fish/completions
+fish/fish_variables
