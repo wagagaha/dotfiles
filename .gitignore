@@ -10,5 +10,12 @@ plum
 raycast
 ssh
 work
+# fish
+fish/fish_plugins
 fish/completions
 fish/fish_variables
+fish/functions/*
+fish/conf.d/*
+!fish/conf.d/custom
+!fish/functions/custom
+
