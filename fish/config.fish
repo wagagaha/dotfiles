@@ -47,7 +47,7 @@ set -x PATH $BUN_INSTALL/bin $PATH
 set -x PATH ~/.cargo/bin $PATH
 
 # alias
-for file in ~/.config/alias/*
+for file in ~/.config/alias/*.fish
     source $file
 end
 
