@@ -71,6 +71,6 @@ config.color_scheme = "Dark"
 -- Fonts
 config.font = wezterm.font("Input Mono")
 config.font = wezterm.font("JetBrains Mono", { weight = "Bold", italic = true })
-config.font_size = 14
+config.font_size = 16
 
 return config
