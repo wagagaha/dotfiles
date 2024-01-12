@@ -8,8 +8,8 @@ alias rm="rm -v -i"
 alias cp="cp -v"
 
 # git
-alias gcm="set -x GPG_TTY=$(tty) && git commit -m"
-alias gam="set -x GPG_TTY=$(tty) && git commit -am"
+alias gcm="git commit -m"
+alias gam="git commit -am"
 alias gck="git checkout"
 alias ga="git add"
 
