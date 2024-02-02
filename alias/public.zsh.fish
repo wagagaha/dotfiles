@@ -24,7 +24,7 @@ alias dasl="sudo rm -rf /private/var/log/asl/*.asl"
 alias ded="rm -rf ~/Library/Developer/Xcode/DerivedData"
 
 # Flush SPM caches
-alias dspm="rm -rf ~/Library/Caches/org.swift.swiftpm/;rm -rf $HOME/Library/org.swift.swiftpm"
+alias dspm="rm -rf ~/Library/Caches/org.swift.swiftpm/;rm -rf ~/Library/org.swift.swiftpm"
 
 # Flush Directory Service cache
 alias flushdns="dscacheutil -flushcache; sudo killall -HUP mDNSResponder"
@@ -40,6 +40,3 @@ alias clean="dasl &&\
 # >> Others
 # local ip
 alias localip="ipconfig getifaddr en0"
-
-# external ip
-alias externalip="curl https://ipinfo.io"

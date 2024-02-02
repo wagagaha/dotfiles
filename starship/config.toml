@@ -23,7 +23,7 @@ disabled = false
 [directory]
 format = '[ $path](#CFB53D bold) [$read_only]($read_only_style) '
 read_only = ''
-truncation_length = 1
+truncation_length = 2
 
 # Replace the '❯' symbol in the prompt with '➜'
 [character] # The name of the module we are configuring is 'character'
