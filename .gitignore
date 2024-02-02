@@ -17,5 +17,6 @@ fish/fish_variables
 fish/functions/*
 fish/conf.d/*
 !fish/conf.d/custom
-!fish/functions/custom
-
+!fish/functions/custom*
+zed/*
+!zed/settings.json
